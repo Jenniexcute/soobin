@@ -103,8 +103,8 @@ module.exports = (m) => {
       if (!('owners' in setting)) setting.owners = ['6285887776722', '994408364923']
       if (!('msg' in setting)) setting.msg = 'HI! +tag 🎋/nAn automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.3.0\n◦ *Running* : ${uptime}\n◦ *Source* : https://github.com/winterasepa\n\nIf you find an error or want to upgrade premium plan contact the owner.'
       if (!isNumber(setting.menuStyle)) setting.menuStyle = 1
-      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/d826ed4128ba873017479.jpg'
-      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/Dh1USlrqIfmJT6Ji0Pm2pP'
+      if (!('cover' in setting)) setting.cover = 'https://telegra.ph/file/f88b7db92a75ff1d2bb8d.jpg'
+      if (!('link' in setting)) setting.link = 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
    } else {
       global.db.setting = {
          autodownload: true,
@@ -125,8 +125,8 @@ module.exports = (m) => {
          owners: ['6285887776722', '994408364923'],
          msg: 'HI! +tag 🎋/nAn automated system (WhatsApp Bot) that can help to do something, search and get data / information only through WhatsApp.\n\n◦ *Database* : PostgreSQL\n◦ *Library* : Baileys v4.4.0\n◦ *Source* : https://github.com/winterasepa\n◦ *Running* : ${uptime}\n\nIf you find an error or want to upgrade premium plan contact the owner.',
          menuStyle: 1,
-         cover: 'https://telegra.ph/file/d826ed4128ba873017479.jpg',
-         link: 'https://chat.whatsapp.com/Dh1USlrqIfmJT6Ji0Pm2pP'
+         cover: 'https://telegra.ph/file/f88b7db92a75ff1d2bb8d.jpg',
+         link: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
       }
    }
 }
