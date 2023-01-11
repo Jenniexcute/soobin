@@ -12,7 +12,7 @@ exports.run = {
    }) => {
       try {
          if (!text) return client.reply(m.chat, Func.example(isPrefix, command, 'lathi'), m)
-         client.sendReact(m.chat, '🕒', m.key)
+         client.sendReact(m.chat, '✨', m.key)
          const search = await (await yts(text)).all
          if (!search || search.length == 0) return client.reply(m.chat, global.status.fail, m)
          const json = await Func.fetchJson('https://yt.nxr.my.id/yt2?url=https://youtu.be/' + search[0].videoId + '&type=audio')
@@ -30,7 +30,7 @@ exports.run = {
             thumbnail: await Func.fetchBuffer(json.thumbnail)
          }).then(async () => {
             client.sendFile(m.chat, json.data.url, json.data.filename, '', m, {
-               document: true,
+               document: false,
                APIC: await Func.fetchBuffer(json.thumbnail)
             })
          })
