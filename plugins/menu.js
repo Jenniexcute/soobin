@@ -100,7 +100,8 @@ exports.run = {
             }
             client.sendMessageModify(m.chat, print + '\n\n' + global.footer, m, {
                ads: false,
-               largeThumb: true
+               largeThumb: true,
+               url: 'https://chat.whatsapp.com/FKB3BjBGMYjBJZfJXjEAOa'
             })
          }
       } catch (e) {
