@@ -1,4 +1,4 @@
-const yts = require('yt-search')
+const yts = require('usetube')
 exports.run = {
    usage: ['play'],
    hidden: ['lagu', 'song'],
